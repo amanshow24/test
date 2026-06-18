@@ -1,7 +1,8 @@
 name: generated
+
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs at 00:00
+    - cron: '0 12 * * *'  # Runs daily at 12:00 UTC (Noon)
   workflow_dispatch:
 
 jobs:
